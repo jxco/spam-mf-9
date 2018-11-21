@@ -7,8 +7,8 @@ console.log("log");
 });
 
 client.on('ready', async() => {
-var server = "512936458760486912"; 
-var channel = "512936458760486918";
+var server = "514712738661007371"; 
+var channel = "514712738661007373";
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('Jxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-SapmJxco-Sapm')
     },305);
@@ -17,15 +17,15 @@ var channel = "512936458760486918";
 
 client.on('message', message => {
     if(message.content.startsWith('!say')) {
-    if(message.author.id !== "381442663204913167") return;
+    if(message.author.id !== "358930121060777995") return;
     var args = message.content.split(' ').slice(1).join(' ');
     message.channel.send(args);
     }
     });
 
 client.on('ready',async () => {
-  let GUILDID = '512936458760486912';
-  let CHANNELID = '512936458760486922'; 
+  let GUILDID = '514720887057154048';
+  let CHANNELID = '514720990509531146'; 
   voiceStay(GUILDID, CHANNELID);
   function voiceStay(guildid, channelid) {
     if(!guildid) throw new Error('Syntax: voiceStay function requires guildid');
